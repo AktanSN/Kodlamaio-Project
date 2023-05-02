@@ -20,6 +20,6 @@ public class ProductManager implements ProductService {
 
     @Override
     public List<Product> getAllProducts() {
-        return null;
+        return this.productDao.findAll();
     }
 }
