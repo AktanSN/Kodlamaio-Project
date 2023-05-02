@@ -22,4 +22,5 @@ public class ProductManager implements ProductService {
     public List<Product> getAllProducts() {
         return this.productDao.findAll();
     }
+    
 }
